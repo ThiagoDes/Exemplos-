@@ -1,2 +1,2 @@
-Exemplo de uma calculadora simples,
-com HTML e javascript.
+Repositorio voltado para exemplos
+em aplicação html, css , javaScripts e afins
