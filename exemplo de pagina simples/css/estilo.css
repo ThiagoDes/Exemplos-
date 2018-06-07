@@ -1,0 +1,111 @@
+@font-face {
+	font-family: 'Lobster';
+	src: url('../fonts/Lobster.ttf');
+}
+
+header {
+	width: 100%;
+	background-color: #1C1C1C;
+	height: 60px;
+}
+
+header .container {
+	height: 60px;
+	position: relative;
+}
+
+header h1 {
+	color: #FFF;
+	font-size: 43px;
+	font-family: Lobster;
+	position: absolute;
+	top: -18px;
+}
+
+#menu li {
+	display: inline-block;
+}
+
+#menu li a {
+	font-weight: bold;
+	font-size: 17px;
+	color: #FFF;
+	line-height: 60px;
+	padding: 21px 15px;
+}
+
+#menu li a:hover {
+	text-decoration: none;
+	background-color: #3479BA;
+}
+
+.frase {
+	width: 100%;
+	height: 345px;
+	background-color: #8A0829; 
+	position: relative;
+}
+
+.efeito {
+	width: 500px;
+	color: #FFF;
+	position: absolute;
+	top: 70px;
+}
+
+.efeito h2 {
+	font-size: 42px;
+	font-family: 'Arial Black';
+}
+
+.efeito p {
+	font-size: 26px;
+}
+
+.efeito .acessar {
+	top: 215px;
+	background-color: #08298A;
+	border: none;
+	font-size: 28px;
+	padding: 16px 20px;
+	border-radius: 16px;
+}
+
+
+.efeito .acessar:hover {
+	color: #F00;
+}
+
+.ilustra-efeito {
+	position: absolute;
+	right: 260px;
+}
+
+.ilustra-efeito img {
+	height: 345px;
+}
+
+.outros {
+	margin-top: 30px;
+}
+
+.outros h3 {
+	margin-bottom: 50px;
+	font-weight: bold;
+}
+
+.outros img {
+	width: 240px;
+	height: 400px;
+}
+
+footer {
+	width: 100%;
+	background-color: #1C1C1C;
+	color: #FFF;
+	font-size: 18px;
+	position: absolute;
+	margin-top: 48px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
